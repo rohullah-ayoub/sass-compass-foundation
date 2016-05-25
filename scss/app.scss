@@ -8,3 +8,22 @@ body {
     background-color: $background;
     font-family: $regular-font;
 }
+
+h1, h2, h3 {
+    font-family: $regular-font;
+}
+
+#logo, nav {
+    margin-top: $top-header;
+}
+
+#logo {
+    display: block;
+}
+
+#slogan {
+    font-size: $slogan;
+    color: $dark-blue;
+    margin-bottom: 20px;
+    display: block;
+}
